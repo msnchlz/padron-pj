@@ -26,7 +26,7 @@
         header {
             background: linear-gradient(135deg, var(--pj-navy) 0%, var(--pj-blue) 100%);
             color: white;
-            padding: 25px 20px;
+            padding: 30px 20px;
             text-align: center;
             box-shadow: 0 4px 12px rgba(15, 44, 89, 0.2);
             border-bottom: 4px solid var(--pj-cyan);
@@ -38,23 +38,28 @@
             letter-spacing: 1.5px;
             font-weight: 700;
         }
+        
+        /* Estilo del subtitulo (DISTRITO) */
         header .sub {
-            font-size: 1.1rem;
-            margin-top: 8px;
+            font-size: 1.2rem; /* Tamaño base */
+            margin-top: 10px;
             font-weight: 400;
             letter-spacing: 1px;
-            opacity: 0.95;
-            margin-bottom: 8px; /* Espacio para las autoridades */
+            opacity: 1;
+            margin-bottom: 5px; 
         }
         
-        /* Estilo nuevo para las Autoridades */
+        /* Estilo NUEVO para las Autoridades: Blanco y Grande */
         header .authorities {
-            font-size: 0.95rem;
-            font-weight: 300;
-            color: var(--pj-cyan); /* Color destacado */
-            opacity: 0.9;
+            font-size: 1.1rem;         /* Aumentado para igualar al sub */
+            font-weight: 400;          
+            color: white;              /* CAMBIO: Ahora es BLANCO puro */
+            opacity: 0.95;
             letter-spacing: 0.5px;
-            border-top: 1px solid rgba(255,255,255,0.2);
+            margin-top: 5px;
+            
+            /* Una línea sutil arriba para separar visualmente del Distrito */
+            border-top: 1px solid rgba(255,255,255,0.4); 
             padding-top: 8px;
             display: inline-block;
         }
