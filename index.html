@@ -41,7 +41,7 @@
         
         /* Estilo del subtitulo (DISTRITO) */
         header .sub {
-            font-size: 1.2rem; /* Tamaño base */
+            font-size: 1.2rem;
             margin-top: 10px;
             font-weight: 400;
             letter-spacing: 1px;
@@ -49,19 +49,22 @@
             margin-bottom: 5px; 
         }
         
-        /* Estilo NUEVO para las Autoridades: Blanco y Grande */
+        /* Estilo AUTORIDADES: Grande y Blanco */
         header .authorities {
-            font-size: 1.1rem;         /* Aumentado para igualar al sub */
-            font-weight: 400;          
-            color: white;              /* CAMBIO: Ahora es BLANCO puro */
-            opacity: 0.95;
-            letter-spacing: 0.5px;
-            margin-top: 5px;
+            font-size: 1.3rem;         /* AUMENTADO (Incluso un pelín más que el sub para compensar que no es mayúscula sostenida) */
+            font-weight: 500;          /* Un poco más de peso para que se lea bien */
+            color: white;              /* Blanco Puro */
+            opacity: 1;
+            letter-spacing: 0.3px;
+            margin-top: 8px;
+            padding-top: 10px;
             
-            /* Una línea sutil arriba para separar visualmente del Distrito */
-            border-top: 1px solid rgba(255,255,255,0.4); 
-            padding-top: 8px;
+            /* Línea divisoria suave */
+            border-top: 1px solid rgba(255,255,255,0.3); 
             display: inline-block;
+            
+            /* Aseguramos que NO sea mayúscula sostenida */
+            text-transform: none; 
         }
         
         main {
